@@ -13,7 +13,7 @@ others();
 slider();
 calc()
 timer({
-    deadline: '22 january 2023 21:00',
+    deadline: '30 march 2024 21:00',
     days: '.count_1 span',
     hours: '.count_2 span',
     minutes: '.count_3 span',
@@ -21,7 +21,7 @@ timer({
     timerIndex: 0
 })
 timer({
-    deadline: '22 january 2023 21:00',
+    deadline: '30 march 2024 21:00',
     days: '.count_1 span',
     hours: '.count_2 span',
     minutes: '.count_3 span',

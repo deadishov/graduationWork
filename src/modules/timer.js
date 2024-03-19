@@ -7,6 +7,7 @@ export const timer = ({ deadline, days, hours, minutes, seconds, timerIndex }) =
     let idInterval;
 
     const getTimeRemaining = () => {
+
         let dateStop = new Date(deadline).getTime();
         let dateNow = new Date().getTime();
         let timeRemaining = (dateStop - dateNow) / 1000;
@@ -19,10 +20,11 @@ export const timer = ({ deadline, days, hours, minutes, seconds, timerIndex }) =
     }
 
     const updateClock = () => {
+
         let getTime = getTimeRemaining();
 
-
         if (getTime.timeRemaining > 0) {
+
             timerDays[timerIndex].textContent = getTime.days
             timerHours[timerIndex].textContent = getTime.hours;
             timerMinutes[timerIndex].textContent = getTime.minutes;
